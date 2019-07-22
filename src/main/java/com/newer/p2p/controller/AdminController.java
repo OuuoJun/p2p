@@ -39,6 +39,11 @@ public class AdminController {
         return  flag;
     }
 
+    /**
+     * 用户注册
+     * @param admin
+     * @return
+     */
     @RequestMapping("AdminRegister")
     public int AdminRegister(Admin admin){
         admin.setRegister(new Date());
