@@ -1,0 +1,15 @@
+
+server:
+  port: 8085
+mybatis:
+  type-aliases-package: com.newer.p2p.domain
+  mapper-locations: classpath:com/newer/springboot/mapper/*.xml
+
+spring:
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://localhost/hhhh?useLL=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=true
+
+
+
